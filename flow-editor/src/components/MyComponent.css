@@ -1,0 +1,123 @@
+.divParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.div-area {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.div-area h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+.label2 {
+    width: 180px;
+    font-weight: bold;
+}
+select,
+button {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.button-container-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.drawarea {
+    /*width: 800px;*/
+    /*height: 200px;*/
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.div-row {
+    display: flex;
+    justify-content: space-between;
+    /* 均等配置 */
+    gap: 20px;
+    /* 隙間を作る */
+    width: 100%;
+    max-width: 900px;
+}
+
+.div-area {
+    flex: 1;
+    /* 均等に伸縮 */
+    text-align: center;
+}
+
+.div-area select {
+    font-size: 12px;
+    /* 文字サイズを小さくする */
+    padding: 5px;
+    /* 内側の余白を小さくする */
+    width: 100%;
+    /* 幅を統一 */
+    max-width: 200px;
+    /* 最大幅を制限 */
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    /* 中央寄せ */
+    gap: 20px;
+    /* ボタンの間隔 */
+    margin-top: 20px;
+}
+
+.xml-button {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.xml-button:hover {
+    background-color: #138496;
+}
