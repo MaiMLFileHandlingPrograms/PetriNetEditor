@@ -4,6 +4,10 @@
  - ペトリネット図を作成するGUI機能
  - XML/MaiMLファイルの読み込み、ペトリネット図の表示と編集機能
  - \<pnml\>要素/\<method\>要素の生成とファイル出力機能
+ - ペトリネット図作成のデモ <br/>
+    https://github.com/MaiMLFileHandlingPrograms/PetriNetEditor/blob/IMG/PetriNetEditor1.gif
+ - ファイル読み込みと編集のデモ <br/>
+    https://github.com/MaiMLFileHandlingPrograms/PetriNetEditor/blob/IMG/PetriNetEditor2.gif
 
 ## 環境構築
 ### 1. nodeをインストール
