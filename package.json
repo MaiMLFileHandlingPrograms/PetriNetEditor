@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "@types/jointjs": "^1.0.5",
-    "jointjs": "^3.7.7",
-    "react-scripts": "^5.0.1"
-  }
-}
