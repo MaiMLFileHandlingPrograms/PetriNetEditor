@@ -1,6 +1,6 @@
 import React from "react";
 import FlowEditor from "./components/FlowEditor";
-import PetriNetEditor from "./components/PetriNetEditor";
+//import PetriNetEditor from "./components/PetriNetEditor";
 
 function App() {
   return (
